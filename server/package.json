@@ -1,0 +1,36 @@
+{
+  "name": "member-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clm-msch/member-system.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clm-msch/member-system/issues"
+  },
+  "homepage": "https://github.com/clm-msch/member-system#readme",
+  "dependencies": {
+    "@prisma/client": "^4.6.0",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-jwt": "^8.3.0",
+    "http-error": "^0.0.6",
+    "https": "^1.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "node": "^19.4.0",
+    "nodemon": "^2.0.20",
+    "prisma": "^4.6.0",
+    "zod": "^3.20.2"
+  }
+}
